@@ -119,6 +119,7 @@ body {
     --section-footer-padding: 3rem 0 0;
     --section-footer-align: center;
     --footer-padding: 5rem 0 1rem;
+
     --nav-item-font-family: var(--font-family-title);
     --nav-item-font-weight: var(--font-weight-bold);
     --nav-item-font-size: var(--font-size-medium);
@@ -152,10 +153,7 @@ body {
 }
 .nav .nav-link {
     display: block;
-    padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
-    padding-left: 1rem;
-    padding-right: 1rem;
+    padding-top: 0.5rem 1rem;
 }
 .nav .nav-link:hover {
     color: var(--nav-item-link-hover);
