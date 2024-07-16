@@ -159,10 +159,10 @@ body {
 .nav .nav-link:hover {
     color: var(--nav-item-link-hover);
 }
-.row ul {
+ul.row {
     margin: 0;
     padding: 0;
-    list-style: 0;
+    list-style-type: 0;
 }
 .col-1-3 {
     width: 33.33%;
