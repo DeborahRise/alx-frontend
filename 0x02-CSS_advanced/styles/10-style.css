@@ -24,7 +24,7 @@ a {
     color: var(--color-primary);
 }
 .section-header {
-    align-content: var(--section-header-align);
+    justify-content: var(--section-header-align);
 }
 .section-tagline {
     color: var(--color-primary);
