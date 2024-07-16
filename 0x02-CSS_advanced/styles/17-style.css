@@ -14,62 +14,82 @@ body {
     font-size: var(--font-size-medium);
     font-weight: var(--font-weight-regular);
     line-height: var(--line-height-base);
-}
-h1, h2, h3, h4, h5, h6 {
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
     font-family: var(--font-family-title);
     font-weight: var(--font-weight-bold);
-}
-a:link{
+  }
+  
+  a:link {
     color: var(--text-color);
     text-decoration: none;
-}
-a:visited {
+  }
+  
+  a:visited {
     font-style: italic;
-}
-a:hover {
+  }
+  
+  a:hover {
     text-decoration: underline;
-}
-a:active {
+  }
+  
+  a:active {
     background-color: var(--color-light-grey);
-}
-.visually-hidden {
+  }
+  
+  .visually-hidden {
     display: none;
-}
-.card-category {
+  }
+  
+  .card-category {
     color: var(--color-primary);
-}
-section {
+  }
+  
+  .section {
     padding: var(--section-padding);
-}
-.section-header {
+  }
+  
+  .section-header {
     text-align: var(--section-header-align);
     padding: var(--section-header-padding);
-}
-.section-body {
+  }
+  
+  .section-body {
     padding: var(--section-body-padding);
-}
-.section-footer {
+  }
+  
+  .section-footer {
     padding: var(--section-footer-padding);
     text-align: var(--section-footer-align);
-}
-.section-title {
+  }
+  
+  .section-title {
     font-family: var(--font-family-title);
     font-size: var(--font-size-xx-large);
     font-weight: var(--font-weight-bold);
     margin: var(--section-title-margin);
     color: var(--section-title-color);
-}
-.section-tagline {
+  }
+  
+  .section-tagline {
     color: var(--color-primary);
     font-family: var(--font-family-title);
     text-transform: var(--section-tagline-transform);
     font-weight: var(--font-weight-bold);
-}
-.container {
+  }
+  
+  .container {
     width: 960px;
     margin-left: auto;
     margin-right: auto;
-}
+  }
+  
 :root {
     --color-primary: #d73953;
     --color-black: #090909;
@@ -101,5 +121,5 @@ section {
     --footer-padding: 5rem 0 1rem;
 }
 .footer {
-    padding: var(--footer-padding);
+  padding: var(--footer-padding);
 }
