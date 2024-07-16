@@ -43,7 +43,7 @@ body {
     background-color: var(--color-light-grey);
   }
 
-  button {
+  .button {
     display: var(--button-display);
     padding: var(button --button-padding);
     border: var(--button-border);
@@ -150,7 +150,7 @@ body {
     --button-text-decoration: none;
     --button-font-size: var(--font-size-large);
     --button-hover-color: var(--color-white);
-    --button-hover-text-decoration: none
+    --button-hover-text-decoration: none;
     --button-hover-background: var(--color-primary);
 }
 .footer {
