@@ -45,7 +45,7 @@ body {
 
   .button {
     display: var(--button-display);
-    padding: var(button --button-padding);
+    padding: var(--button-padding);
     border: var(--button-border);
     font-size: var(--button-font-size);
     color: var(--button-color);
