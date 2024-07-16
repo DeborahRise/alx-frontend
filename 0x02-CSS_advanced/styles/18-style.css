@@ -138,23 +138,23 @@ nav {
     padding: 0;
     list-style: none;
     text-align: center;
+}
 
-    .nav-item {
-        font-family: var(--nav-item-font-family);
-        font-weight: var(--nav-item-font-weight);
-        font-size: var(--nav-item-font-size);
-        letter-spacing: var(--nav-item-letter-spacing);
-        display: var(--nav-item-display);
-        margin: var(--nav-item-margin);
-    }
-    .nav-link {
-        display: block;
-        padding-top: 0.5rem;
-        padding-bottom: 0.5rem;
-        padding-left: 1rem;
-        padding-right: 1rem;
-    }
-    .nav-link:hover {
-        color: var(--nav-item-link-hover);
-    }
+.nav-item {
+    font-family: var(--nav-item-font-family);
+    font-weight: var(--nav-item-font-weight);
+    font-size: var(--nav-item-font-size);
+    letter-spacing: var(--nav-item-letter-spacing);
+    display: var(--nav-item-display);
+    margin: var(--nav-item-margin);
+}
+.nav-link {
+    display: block;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.nav-link:hover {
+    color: var(--nav-item-link-hover);
 }
