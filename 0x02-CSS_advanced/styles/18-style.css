@@ -130,17 +130,19 @@ body {
 .footer {
   padding: var(--footer-padding);
 }
+
 .navbar-menu {
     float: right;
 }
-nav {
+
+.nav {
     margin: 0;
     padding: 0;
     list-style: none;
     text-align: center;
 }
 
-.nav-item {
+.nav .nav-item {
     font-family: var(--nav-item-font-family);
     font-weight: var(--nav-item-font-weight);
     font-size: var(--nav-item-font-size);
@@ -148,13 +150,13 @@ nav {
     display: var(--nav-item-display);
     margin: var(--nav-item-margin);
 }
-.nav-link {
+.nav .nav-link {
     display: block;
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
     padding-left: 1rem;
     padding-right: 1rem;
 }
-.nav-link:hover {
+.nav .nav-link:hover {
     color: var(--nav-item-link-hover);
 }
