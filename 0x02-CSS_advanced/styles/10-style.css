@@ -24,7 +24,7 @@ a {
     color: var(--color-primary);
 }
 .section-header {
-    --section-header-align: center;
+    align-content: var(--section-header-align);
 }
 .section-tagline {
     color: var(--color-primary);
@@ -48,4 +48,5 @@ a {
     --line-height-small: 1.2;
     --line-height-base: 1.5;
     --line-height-big: 1.8;
+    --section-header-align: center;
 }
